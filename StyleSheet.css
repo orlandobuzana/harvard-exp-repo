@@ -1,0 +1,41 @@
+.header {
+    
+    background-color: darkcyan;
+    margin: auto;  
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    
+    font-size: 22pt;
+    color: #46464d;
+    text-decoration: underline;
+
+}
+td{
+
+    border: 3px;
+    border-color: blueviolet;
+}
+
+th {
+    
+    padding: auto;
+    border: 3px;
+    border-color: blueviolet;
+    
+    
+}
+
+.centerCell {
+  
+    text-align: center;
+
+}
+
+.contact{
+
+    text-align: left;
+
+}
