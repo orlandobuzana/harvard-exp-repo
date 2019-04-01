@@ -1,3 +1,12 @@
+html{
+   
+}
+body{
+    width: auto; 
+    margin: 20px auto; /* center */ 
+    padding: 20px;
+    border: 1px solid black;
+}
 .header {
     
     background-color: darkcyan;
@@ -5,7 +14,12 @@
     padding: 10px;
     text-align: center;
 }
-
+.footer{
+    background-color: darkcyan;
+    margin: auto;  
+    padding: 0.5px;
+    text-align: center;
+}
 h1 {
     
     font-size: 22pt;
@@ -14,14 +28,7 @@ h1 {
 
 }
 
-th {
-    
-    padding: auto;
-    border: 3px;
-    
-    
-    
-}
+
 
 .centerCell {
   
@@ -30,15 +37,52 @@ th {
 }
 
 .contact{
-
-    text-align: left;
-
+    margin-top: -300px;
+    margin-bottom: 15px;
+    margin-left: 84.5%;
+    padding: 5px;
+    height: 250px;
+    width: 200px;
+    font-size: 33 px;
 }
+
 .photo{
-
+    border-style: solid;
+    margin-top: 20px;
+    padding: 5px;
+    float:left;
     text-align: center;
 }
+
 .bio{
-
+    padding-left:15px; 
+    border-style: solid;
+    border-top-right-radius: 5px;
+    
+    box-flex: auto;
+    box-align: right;
+    border-color:#8b1125;
+    width: 400px;
+    
+    font-size: 15px;
     text-align: center;
 }
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+  article{
+      margin-left: 31%;
+      padding: 5px;
+      height: 300px;
+      width: 500px;
+      text-align: center;
+  } 
+  ul {
+     
+    text-align: left;
+    list-style-position: inside;
+  }

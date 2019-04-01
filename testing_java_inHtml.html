@@ -1,0 +1,41 @@
+<html>
+<head>
+<link href="StyleSheet.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function displayAddr(){
+    var Adress = document.getElementById("addr").value;
+    document.getElementById("blankP").innerText = Adress;
+    
+
+}
+
+function completefrase(){
+    var nome = document.getElementById("firstname").value;
+    var lastnome = document.getElementById("lastname").value;
+    alert(nome + "seu cabaco "+ lastnome);
+}
+
+
+function sayHello() {
+ alert("Hello World")
+}
+
+</script>
+</head>
+<body>
+Click here for the result
+<input type="button" onclick="sayHello()" value="Say Hello" />
+<form style="border-style: solid; border-width: 0.5px;width: 200px"> 
+    First name:<input type="text" id="firstname" value=""><br>
+    Last name:<input type="text" id="lastname" value=""><br>
+    <input type = "button" onclick="completefrase()" value = "OK">
+</form>
+
+<form style="border-color:#8b1125;">
+    Adress:<input type = "text" id= "addr" value=""><br>
+    <input type="button" onclick="displayAddr()" value="OK">    
+</form>
+<p id="blankP" style="border-style: solid">orlando</p>
+
+</body>
+</html>
