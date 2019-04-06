@@ -1,0 +1,88 @@
+body { margin:0px; }
+        
+.fc > * {
+  margin: 10px;
+  padding: 20px; 
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+/* initialize flexbox container and flexbox items */
+.fc { 
+  display: flex;
+  flex-flow: row wrap;
+}
+.fc > * { 
+  flex: 1; 
+}
+
+/* header and footer should be full width */
+.fc header,
+.fc footer {
+  background-color: rgb(131, 126, 126);  
+  flex: 0 1 100vw; 
+}
+        
+/* ensure flex-container is always at least as tall as the viewport. 
+   Keeps footer from coming up*/
+.fc { min-height: 100vh; }
+/* ensure flex-container is always at least as tall as the viewport, 
+   minus the height of the header and footer combined. 
+*/
+.fc { min-height: calc(100vh - 200px); } 
+
+.fc main{
+    max-height: 450px;
+    min-width: 250px;
+    max-width: 750px;
+    overflow: hidden;
+    
+}
+.fc main h3{
+    text-align: center;
+}
+.fc aside{
+    text-align: center;
+    max-width: 270px;
+    max-height: 300px;
+}
+    
+.fc section{
+    text-align: left;
+    max-width: 270px;
+    max-height: 300px;
+    overflow: hidden;
+}
+.fc section h2{
+    text-align: center;
+}
+
+/* size header and footer to be full width and 100px tall each */
+header,
+footer {
+    
+  text-align: center;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100px;
+}
+
+/*From anterior page stylesheet */
+.photo{
+    background-color: white;
+    width: 250px;
+    border-style: solid;
+    box-shadow: 20px 20px 10px #888888;
+    padding: 4px;
+    text-align: center;
+      
+}
+.bio{
+    
+    font-size: 15px;
+    
+}
+a{
+    color: darkcyan;
+}
